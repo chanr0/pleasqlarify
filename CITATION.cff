@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "PleasQLarify: Interactive SQL Query Clarification for End Users"
+authors:
+  - family-names: Chan
+    given-names: Robin Shing Moon
+    orcid: https://orcid.org/0000-0000-0000-0000
+version: 1.0.0
+date-released: 2026-01-25
+repository-code: "https://github.com/chanr0/pleasqlarify"
+url: "https://github.com/chanr0/pleasqlarify"
+keywords:
+  - SQL
+  - query clarification
+  - human-computer interaction
+  - database
+  - visualization
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "PleasQLarify: Interactive SQL Query Clarification for End Users"
+  authors:
+    - family-names: Chan
+      given-names: Robin Shing Moon
+      orcid: https://orcid.org/0000-0000-0000-0000
+  year: 2026
+  conference:
+    name: "CHI Conference on Human Factors in Computing Systems"
+  collection-title: "CHI '26: Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems"
+  publisher:
+    name: "Association for Computing Machinery"
+  address: "New York, NY, USA"
+  doi: "10.1145/XXXXXXX.XXXXXXX"
