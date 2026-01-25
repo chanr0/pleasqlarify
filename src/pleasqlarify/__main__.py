@@ -3,6 +3,7 @@ Command Line Interface for PleasQLarify
 """
 
 import argparse
+import json
 import sys
 from .clarifier import SQLClarifier
 from .visualizer import QueryVisualizer
@@ -70,7 +71,6 @@ def main():
         print(visualizer.visualize(query, args.format))
     else:
         if args.format == "json":
-            import json
             print(json.dumps(result, indent=2))
         else:
             print("Query:", result["query"])

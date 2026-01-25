@@ -2,6 +2,7 @@
 Tests for the Query Visualizer
 """
 
+import json
 import pytest
 from pleasqlarify import QueryVisualizer
 
@@ -48,7 +49,6 @@ class TestQueryVisualizer:
         
         assert isinstance(result, str)
         # Should be valid JSON
-        import json
         data = json.loads(result)
         assert "query" in data
     

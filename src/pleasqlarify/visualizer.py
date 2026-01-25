@@ -4,6 +4,8 @@ Query Visualizer Module
 Provides visualization capabilities for SQL queries.
 """
 
+import json
+import sqlparse
 from typing import Dict, Optional
 
 
@@ -53,7 +55,6 @@ class QueryVisualizer:
         Returns:
             Text visualization
         """
-        import sqlparse
         formatted = sqlparse.format(
             query,
             reindent=True,
@@ -73,7 +74,6 @@ class QueryVisualizer:
         Returns:
             HTML visualization
         """
-        import sqlparse
         formatted = sqlparse.format(
             query,
             reindent=True,
@@ -98,9 +98,6 @@ class QueryVisualizer:
         Returns:
             JSON visualization
         """
-        import json
-        import sqlparse
-        
         formatted = sqlparse.format(
             query,
             reindent=True,
